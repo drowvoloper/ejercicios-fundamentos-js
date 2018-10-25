@@ -13,6 +13,12 @@ let matriz = [
     []
 ]
 
+for (i=0; i<3; i++) { 
+    for (x=0; x<3; x++){ 
+        matriz[i][x] = `${i}${x}`;
+    }
+}
 
+console.log(matriz);
 
 
