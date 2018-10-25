@@ -33,3 +33,14 @@ let gente = [{
         edad: 10
     },
 ]
+
+var empieza = new Array;
+
+for (persona of gente) {
+
+    if (persona.nombre[0] == 'J'){
+        empieza.push(persona.nombre);
+    };
+};
+
+console.log(empieza);
