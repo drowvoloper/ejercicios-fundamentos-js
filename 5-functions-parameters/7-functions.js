@@ -8,6 +8,7 @@
 
 // Aquí tu código
 
+const convierteEurosEnPesetas = (euros) => euros*168;
 
 // Hasta aquí
 
