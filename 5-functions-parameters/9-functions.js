@@ -10,6 +10,11 @@
 
 // Aquí tu código
 
+const muestraPorConsolaEurosEnPesetas = function (euros) {
+
+    if (typeof euros === 'number') { console.log(euros*2)}
+    else { throw new Error("muestraPorConsolaEurosEnPesetas debe recibir un number")};
+};
 
 // Hasta aquí
 

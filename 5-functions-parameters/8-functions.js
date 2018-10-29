@@ -8,6 +8,12 @@
 
 // Aquí tu código
 
+const convierteEurosEnPesetas = function (euros) {
+
+    if(typeof euros === 'number') { return euros*168;}
+    else { throw new Error('convierteEurosEnPesetas debe recibir un number')}
+} 
+
 // Hasta aquí
 
 
