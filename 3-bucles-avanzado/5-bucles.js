@@ -18,6 +18,13 @@ console.log('El array original es:  arr =', arr);
 
 // Aquí tu código
 
+let total = new Number();
+
+for (let numero of arr) {
+	
+	total += numero;
+	console.log(total);
+}
 
 // Hasta aquí
 console.log('El total nuevo es: ', total);
