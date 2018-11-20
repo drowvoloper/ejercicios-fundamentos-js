@@ -14,11 +14,12 @@
 let extraerAcronimo = (...input) => {
     let acronimo = '';
     // Aquí tu código.  Desde aquí:
-   
+        for (let letra of input) {
+            acronimo += letra.charAt(0)
+        }
     // Hasta aquí.
     return acronimo;
 }
-
 
 let test = require('../test.js');
 
